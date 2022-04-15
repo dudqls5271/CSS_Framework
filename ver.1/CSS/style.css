@@ -1,0 +1,67 @@
+@font-face {
+  src: url("../font/Maplestory\ Light.ttf");
+  font-family: "maple";
+}
+
+
+p, span  {
+  text-align: center;
+}
+body {
+  font-family: "maple";
+}
+
+table {
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+
+    text-align: center;
+  }
+  
+
+
+table > tr, td  {
+  padding: 10px;
+
+  border-bottom: 1px solid #dedfe4;
+  /* border: 1px solid #dedfe4; */
+
+}
+
+th {
+  vertical-align: middle;
+  color: #464646;
+  background-color: #dedfe4;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+
+input[type=text]{
+  font-family: "maple";
+  width: 97%;
+  height: 30px;
+  margin-top: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-image: initial;
+}
+
+.input_td {
+  padding: 0px;
+  border-bottom: 0px;
+}
+
+
+input[type=button] {
+  font-family: "maple";
+  position: relative;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  background: #777;
+  border: 0;
+  line-height: 13px;
+}
